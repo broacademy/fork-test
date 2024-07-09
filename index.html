@@ -1,19 +1,26 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="style.css"> --> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARTYNAS ID CARD</title>
 </head>
-<!-- Changes made: title; name; about me; github link. -->
+<!-- Changes made: most of the text, links on html.
+ body p: increased letter spacing, line-height.
+body button: font size, font family.
+.folder: increased width, changed broder and increased px, changed background colour.
+.folder .title span.title-btn: increased top, decresead right, decresead transform.
+.folder .title span.title-btn span: changed width. height, background colour.
+.folder div.body div.aboutme span: changed colour.
+.folder div.body div.portfolio-btn-box .portfolio button.error-btn:changed border,border-right,border-bottom, background colour and color.
+.folder div.body div.portfolio-btn-box .portfolio a.portfolio-btn:changed border,border-right,border-bottom, background colour and color on CSS.
+const text changed,.-->
 <body>
     <div id="container" class="container">
         <div class="profile-folder">
           <div class="folder">
             <div class="title">
-              Yaba Kawaii Studio
+              PLAYER CARD
               <span class="title-btn">
                 <span class="btn1"></span>
                 <span class="btn2"></span>
@@ -25,49 +32,49 @@
               <div class="profile-icon-box">
                 <p id="typeText"></p>
                 <div class="profile-icon">
-                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon.png" /> <!-- Фото -->
+                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon.png" alt="penguin" /> 
                 </div>
               </div>
 
               <div class="name">
-                <p>MARTYNAS KALENDA</p> <!-- Имя -->
+                <p>MARTYNAS KALENDA</p>
               </div>
               <div class="aboutme">
-                <p>Developer<span>(Wannabe...)</span></p> <!-- Профессия -->
+                <p>Developer<span>(Wannabe...)</span></p> 
               </div>
 
               <div class="sns-btn-box">
-                <p>My sns accounts are...</p>
+                <p>Check my accounts!</p>
                 <a
                   href="https://github.com/mightybittern/"
                   target="_blank"
                   class="sns-btn"
                 >
-                  github <!-- Ссылка на соц сеть 1 -->
+                  github 
                 </a>
                 <a
-                  href="https://twitter.com/ayakoyokoya"
+                  href="https://codepen.io/mightybittern"
                   target="_blank"
                   class="sns-btn"
                 >
-                  twitter <!-- Ссылка на соц сеть 2 -->
+                  codepen 
                 </a>
               </div>
 
               <div class="portfolio-btn-box">
                 <p>
-                  Do you want to see error? <!-- Любой ваш текст -->
+                  Do you want to dance?! 
                 </p>
                 <div class="portfolio">
                   <button id="error-btn" class="error-btn">
-                    error?
+                    YES
                   </button>
                   <a
                     href="https://ayakoyokoya.github.io/yaba-kawaii-audio-visualizer/dist/"
                     target="_blank"
                     class="portfolio-btn"
                   >
-                    yes!  <!-- Ссылка -->
+                    NO!  <!-- Ссылка -->
                   </a>
                 </div>
               </div>
@@ -80,7 +87,7 @@
         <div class="error">
           <div class="folder folder_error">
             <div class="title">
-              Error
+              404
               <span class="title-btn">
                 <span class="btn1"></span>
                 <span class="btn2"></span>
@@ -96,11 +103,11 @@
               </div>
 
               <div class="name">
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
+                <p>404!!!!</p>
+                <p>404!!!!</p>
+                <p>404!!!!</p>
+                <p>404!!!!</p>
+                <p>404!!!!</p>
                 <button class="ok-error-btn" onclick="window.location.reload();">OK...</button>
               </div>
             </div>

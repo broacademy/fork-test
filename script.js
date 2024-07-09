@@ -1,7 +1,7 @@
 /* typing */
 
 const textBox = document.getElementById('typeText');
-const text = '\\Hello World!/';
+const text = 'WASSUUUUUUP';
 
 let i = 0;
 
@@ -15,7 +15,7 @@ const typeText = () => {
   }
 }
 
-/* error!!! */
+/* 404 */
 const container = document.getElementById('container');
 const template = document.getElementById('template');
 const errorBtn = document.getElementById('error-btn');
