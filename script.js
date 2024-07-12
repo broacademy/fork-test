@@ -1,4 +1,4 @@
-/* typing */
+
 
 const textBox = document.getElementById('typeText');
 const text = '\\Hello World!/';
